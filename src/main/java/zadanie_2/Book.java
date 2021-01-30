@@ -1,4 +1,4 @@
-package zadanie_1;
+package zadanie_2;
 
 public class Book {
 
@@ -25,6 +25,6 @@ public class Book {
     }
 
     public void setPrice(double price) {
-        this.price = price;
+        this.price = price - 1;
     }
 }

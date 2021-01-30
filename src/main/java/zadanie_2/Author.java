@@ -1,4 +1,4 @@
-package zadanie_1;
+package zadanie_2;
 
 public class Author {
 
