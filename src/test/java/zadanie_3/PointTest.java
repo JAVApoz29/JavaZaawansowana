@@ -27,4 +27,9 @@ public class PointTest {
     public void getYTest() {
         assertEquals(2, point.getY());
     }
+
+    @Test
+    public void checkExceptionTest() {
+        assertThrows(NegativeCoordinateException.class, () -> new Point(-1, -1));
+    }
 }

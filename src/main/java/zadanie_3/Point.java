@@ -6,6 +6,10 @@ public class Point {
     private int y;
 
     public Point(int x, int y) {
+        if (x < 0 || y < 0) {
+            throw new NegativeCoordinateException();
+        }
+
         this.x = x;
         this.y = y;
     }
