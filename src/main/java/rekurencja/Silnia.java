@@ -12,6 +12,10 @@ public class Silnia {
         return liczba * policz(liczba - 1);
     }
 
+    public static int policz2(int liczba) {
+        return liczba == 1 ? 1 : liczba * policz2(liczba - 1);
+    }
+
     public static int policzDla1() {
         return 1;
     }
@@ -31,5 +35,7 @@ public class Silnia {
         System.out.println(policz(5));
 
         System.out.println(policzDla3());
+
+
     }
 }
